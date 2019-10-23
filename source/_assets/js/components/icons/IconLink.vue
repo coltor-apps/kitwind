@@ -1,0 +1,24 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      fill="currentColor"
+      stroke="currentColor"
+    >
+      <path
+        data-color="color-2"
+        fill="none"
+        stroke-miterlimit="10"
+        d=" M21.645,9.999C22.476,10.732,23,11.805,23,13v4c0,2.209-1.791,4-4,4h-9c-2.209,0-4-1.791-4-4v-4c0-2.209,1.791-4,4-4h4"
+      />
+      <path
+        fill="none"
+        stroke="currentColor"
+        stroke-miterlimit="10"
+        d="M2.355,14.001 C1.524,13.268,1,12.195,1,11V7c0-2.209,1.791-4,4-4h9c2.209,0,4,1.791,4,4v4c0,2.209-1.791,4-4,4h-4"
+      />
+    </g>
+  </svg>
+</template>
