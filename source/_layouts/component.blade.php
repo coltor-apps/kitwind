@@ -10,7 +10,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}" />
   </head>
-  <body class="px-1">
+  <body class="bg-gray-100 px-8">
     <div id="app">
       <class-replacer>
         {!! $page->getContent() !!}
