@@ -1,6 +1,6 @@
 ---
 category: headers
-min_height: 500px
+min_height: 577px
 ---
 
 <header class="h-full min-h-screen flex flex-col items-center justify-center text-center relative bg-center bg-cover" style="background-image: url('/assets/images/bg-pattern-center-inverted.svg');">
