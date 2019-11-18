@@ -7,18 +7,9 @@
       fill="currentColor"
       stroke="currentColor"
     >
-      <line
-        data-color="color-2"
-        fill="none"
-        stroke-miterlimit="10"
-        x1="12"
-        y1="23"
-        x2="12"
-        y2="19"
-      />
-      <line data-color="color-2" fill="none" stroke-miterlimit="10" x1="6" y1="23" x2="18" y2="23" />
+      <line fill="none" stroke-miterlimit="10" x1="12" y1="23" x2="12" y2="19" />
+      <line fill="none" stroke-miterlimit="10" x1="6" y1="23" x2="18" y2="23" />
       <circle
-        data-color="color-2"
         data-stroke="none"
         cx="12"
         cy="5"

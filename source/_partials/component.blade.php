@@ -1,4 +1,4 @@
-<component-preview name="{{ $component->getFilename() }}">
+<component-preview name="{{ $component->getFilename() }}" note="{{ $component->note }}">
   <template v-slot:component="{ maxWidth }">
     <iframe
       :style="{ maxWidth }"

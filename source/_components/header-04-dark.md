@@ -3,12 +3,12 @@ category: headers
 min_height: 577px
 ---
 
-<header class="h-screen bg-center bg-cover relative" style="background-image: url('/assets/images/bg-pattern-center-inverted.svg');">
+<header class="h-screen relative">
   <div class="container mx-auto px-8 h-full text-center flex flex-col items-center justify-center">
-    <h1 class="text-3xl font-serif font-bold leading-none mb-4 tracking-wide md:text-5xl">
+    <h1 class="text-3xl text-gray-200 font-serif font-bold leading-none mb-4 tracking-wide md:text-5xl">
       Quas corporis vel est et et
     </h1>
-    <h3 class="text-base text-gray-600 max-w-3xl tracking-wide mb-18">
+    <h3 class="text-base text-gray-500 max-w-3xl tracking-wide mb-18">
       Numquam non omnis quas fugit animi. Optio omnis ut quia
       qui nemo sit
       suscipit asperiores. Aliquam incidunt quam
@@ -27,6 +27,6 @@ min_height: 577px
   </div>
 </header>
 
-<div id="some-section" class="h-screen flex items-center justify-center items-center text-gray-400">
+<div id="some-section" class="h-screen flex items-center justify-center items-center text-gray-400 opacity-25">
   I'm Invisible 👀
 </div>

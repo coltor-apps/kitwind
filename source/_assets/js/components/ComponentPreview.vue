@@ -17,13 +17,19 @@
           <component :is="screenWidthIcons[width]" class="h-4" />
         </component-preview-button>
       </div>
-      <div class="border rounded">
-        <component-preview-button
-          v-for="tab in tabs"
-          :key="tab.id"
-          :active="tab.id === activeTabId"
-          @click="activeTabId = tab.id"
-        >{{ tab.label }}</component-preview-button>
+      <div class="flex items-center flex-row-reverse lg:flex-row">
+        <v-tooltip v-if="note" class="mb-1 ml-3 lg:mr-3">
+          <icon-question class="text-yellow-500 w-5 h-5" />
+          <template slot="content">{{ note }}</template>
+        </v-tooltip>
+        <div class="border rounded">
+          <component-preview-button
+            v-for="tab in tabs"
+            :key="tab.id"
+            :active="tab.id === activeTabId"
+            @click="activeTabId = tab.id"
+          >{{ tab.label }}</component-preview-button>
+        </div>
       </div>
     </div>
     <div
@@ -45,6 +51,8 @@ import IconLaptop from './icons/IconLaptop.vue';
 import IconDesktop from './icons/IconDesktop.vue';
 import IconLink from './icons/IconLink.vue';
 import ComponentPreviewButton from './ComponentPreviewButton.vue';
+import IconQuestion from './icons/IconQuestion.vue';
+import VTooltip from './VTooltip.vue';
 
 const tabs = [
   {
@@ -66,12 +74,18 @@ export default {
     IconLaptop,
     IconDesktop,
     IconLink,
+    IconQuestion,
     ComponentPreviewButton,
+    VTooltip,
   },
   props: {
     name: {
       type: String,
       required: true,
+    },
+    note: {
+      type: String,
+      default: null,
     },
   },
   data: () => ({
