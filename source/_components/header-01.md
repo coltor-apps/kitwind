@@ -13,7 +13,7 @@ min_height: 577px
         Dolores numquam laborum quis expedita voluptatem aut repellat quae.Voluptatem aut laborum qui pariatur
         reprehenderit repellendus illo enim exercitationem.
       </h3>
-      <a href="#" class="flex cursor-pointer text-{primary}-500 hover:text-{primary}-700 tracking-wide text-lg flex items-center font-medium">
+      <a href="#" class="flex items-center cursor-pointer text-{primary}-500 hover:text-{primary}-700 tracking-wide text-lg font-medium">
         Learn more
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="ml-2 w-4">
           <g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="currentColor" stroke="currentColor">
