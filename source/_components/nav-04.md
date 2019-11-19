@@ -62,11 +62,9 @@ min_height: 281px
       </ul>
       <ul class="flex md:items-center flex-col md:flex-row">
         <li>
-          <a
-            href="#"
-            class="text-white bg-{primary}-500 hover:bg-{primary}-600 px-6 py-2 rounded inline-block font-semibold"
-            >Sign Up</a
-          >
+          <a href="#" class="text-white bg-{primary}-500 hover:bg-{primary}-600 px-6 py-2 rounded inline-block font-semibold">
+              Sign Up
+          </a>
         </li>
       </ul>
     </div>
