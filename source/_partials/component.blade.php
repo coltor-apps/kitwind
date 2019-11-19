@@ -1,10 +1,10 @@
-<component-preview name="{{ $component->getFilename() }}">
+<component-preview name="{{ $component->getFilename() }}" note="{{ $component->note }}">
   <template v-slot:component="{ maxWidth }">
     <iframe
       :style="{ maxWidth }"
       style="min-height: {{ $component->min_height ?? 'auto' }}"
       src="{{ $component->getUrl() }}"
-      class="w-full h-full transition-all opacity-0"
+      class="w-full h-full transition-all opacity-0 rounded-lg"
       onload="this.classList.remove('opacity-0');this.classList.add('opacity-100')"
     ></iframe>
   </template>

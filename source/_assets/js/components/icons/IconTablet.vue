@@ -14,7 +14,7 @@
         stroke="currentColor"
         stroke-miterlimit="10"
       />
-      <circle data-color="color-2" data-stroke="none" cx="19" cy="12" r="1" stroke="none" />
+      <circle data-stroke="none" cx="19" cy="12" r="1" stroke="none" />
     </g>
   </svg>
 </template>

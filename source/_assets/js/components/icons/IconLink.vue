@@ -8,7 +8,6 @@
       stroke="currentColor"
     >
       <path
-        data-color="color-2"
         fill="none"
         stroke-miterlimit="10"
         d=" M21.645,9.999C22.476,10.732,23,11.805,23,13v4c0,2.209-1.791,4-4,4h-9c-2.209,0-4-1.791-4-4v-4c0-2.209,1.791-4,4-4h4"

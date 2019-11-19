@@ -28,7 +28,6 @@ section: body
         height="6"
         fill="none"
         stroke-miterlimit="10"
-        data-color="color-2"
       />
       <line
         x1="54"
@@ -37,7 +36,6 @@ section: body
         y2="42"
         fill="none"
         stroke-miterlimit="10"
-        data-color="color-2"
       />
       <polyline
         points="23 23 23 59 14 59 14 23"
