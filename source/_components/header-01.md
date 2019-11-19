@@ -1,6 +1,6 @@
 ---
 category: headers
-min_height: 577px
+min_height: 579px
 ---
 
 <header class="bg-center bg-cover" style="background-image: url('/assets/images/bg-pattern-right.svg');">
