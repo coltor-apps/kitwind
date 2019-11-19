@@ -1,10 +1,3 @@
-<template>
-  <div>
-    <slot />
-  </div>
-</template>
-
-<script>
 import { getComponentsColor } from '../utils/componentsColor';
 
 export default {
@@ -14,5 +7,7 @@ export default {
       `-${getComponentsColor()}-`,
     );
   },
+  render(h) {
+    return this.$scopedSlots.default();
+  },
 };
-</script>

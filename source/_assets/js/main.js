@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import ComponentPreview from './components/ComponentPreview.vue';
-import ClassReplacer from './components/ClassReplacer.vue';
 import ComponentsColorPicker from './components/ComponentsColorPicker.vue';
+import ClassReplacer from './components/ClassReplacer';
 
 Vue.component('component-preview', ComponentPreview);
 Vue.component('class-replacer', ClassReplacer);

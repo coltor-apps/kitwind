@@ -1,5 +1,5 @@
 <component-preview name="{{ $component->getFilename() }}" note="{{ $component->note }}">
-  <template v-slot:component="{ maxWidth }">
+  <template v-slot:preview="{ maxWidth }">
     <iframe
       :style="{ maxWidth }"
       style="min-height: {{ $component->min_height ?? 'auto' }}"

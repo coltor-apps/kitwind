@@ -32,6 +32,7 @@
         </div>
       </div>
     </div>
+
     <div
       v-for="(tab, index) in tabs"
       :key="index"
@@ -54,16 +55,15 @@ import ComponentPreviewButton from './ComponentPreviewButton.vue';
 import IconQuestion from './icons/IconQuestion.vue';
 import VTooltip from './VTooltip.vue';
 
-const tabs = [
-  {
-    id: 'component',
-    label: 'Preview',
-  },
-  {
-    id: 'code',
-    label: 'Code',
-  },
-];
+const tabs = {
+  PREVIEW: 'preview',
+  CODE: 'code',
+};
+
+const tabsLabels = {
+  [tabs.PREVIEW]: 'Preview',
+  [tabs.CODE]: 'Code',
+};
 
 const smScreenWidth = theme.screens.sm.replace('px', '') / 2 + 'px';
 
@@ -89,11 +89,15 @@ export default {
     },
   },
   data: () => ({
-    activeTabId: tabs[0].id,
+    activeTabId: tabs.PREVIEW,
     componentMaxWidth: theme.screens.xl,
   }),
   computed: {
-    tabs: () => tabs,
+    tabs: () =>
+      Object.keys(tabs).map(tab => ({
+        id: tabs[tab],
+        label: tabsLabels[tabs[tab]],
+      })),
     screenWidthIcons: () => ({
       [smScreenWidth]: 'icon-phone',
       [theme.screens.md]: 'icon-tablet',
@@ -110,7 +114,7 @@ export default {
     selectComponentMaxWidth(width) {
       this.componentMaxWidth = width;
 
-      this.activeTabId = 'component';
+      this.activeTabId = tabs.PREVIEW;
     },
   },
 };
