@@ -3,7 +3,7 @@ category: headers
 min_height: 577px
 ---
 
-<header class="h-screen relative">
+<header class="h-screen relative bg-gray-900">
   <div class="container mx-auto px-8 h-full text-center flex flex-col items-center justify-center">
     <h1 class="text-3xl text-gray-200 font-serif font-bold leading-none mb-4 tracking-wide md:text-5xl">
       Quas corporis vel est et et

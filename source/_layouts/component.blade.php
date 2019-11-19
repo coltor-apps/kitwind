@@ -10,7 +10,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}" />
   </head>
-  <body class="@if (ends_with($page->getFilename(), '-dark')) bg-gray-900 @else bg-gray-100 @endif">
+  <body class="bg-gray-100">
     <div id="app">
       <class-replacer>
         {!! $page->getContent() !!}
