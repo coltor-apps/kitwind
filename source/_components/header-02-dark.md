@@ -1,6 +1,6 @@
 ---
 category: headers
-min_height: 460px
+min_height: 465px
 ---
 
 <header class="bg-gray-900">
