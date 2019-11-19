@@ -1,5 +1,5 @@
 @extends('_layouts.master') @section('body')
-<h1 class="text-5xl font-bold mb-10">{{ $page->title }}</h1>
+<h1 class="text-3xl md:text-5xl font-bold mb-10">{{ $page->title }}</h1>
 
 @foreach($page->components($components) as $component)
 <div class="mb-5">

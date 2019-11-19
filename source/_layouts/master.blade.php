@@ -13,8 +13,8 @@
     @stack('head')
   </head>
   <body>
-    <div id="app" class="px-6 xl:px-0 container mx-auto">
-      <div class="fixed inset-x-0 w-full border-b z-50 bg-white">
+    <div id="app" class="px-6 xl:px-0 container mx-auto pt-32">
+      <div class="fixed inset-x-0 w-full border-b z-50 bg-white top-0">
         <div class="px-6 xl:px-0">
           <nav class="container mx-auto flex justify-between items-center py-5 relative">
             <a href="/" class="flex items-center">
