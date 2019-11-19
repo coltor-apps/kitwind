@@ -1,7 +1,7 @@
 ---
 category: navs
 min_height: 324px
-note: Make sure to enable the "group-hover" variant for "textColor", "visibility" and "opacity".
+note: Make sure to enable the "group-hover" variant for "textColor" and "visibility".
 ---
 
 <nav>
@@ -16,7 +16,7 @@ note: Make sure to enable the "group-hover" variant for "textColor", "visibility
           </svg>
           <span class="hidden md:inline-block">Cart</span>
         </a>
-        <div class="w-48 right-0 items-center absolute invisible opacity-0 group-hover:opacity-100 group-hover:visible pt-4">
+        <div class="w-48 right-0 items-center absolute invisible group-hover:visible pt-4">
           <ul class="shadow rounded bg-white px-4 py-2">
             <li class="flex items-center justify-between py-1">
               <a href="#" class="text-xs w-full flex items-center hover:text-{primary}-700">
@@ -43,7 +43,7 @@ note: Make sure to enable the "group-hover" variant for "textColor", "visibility
           </svg>
           <span class="hidden md:inline-block">Account</span>
         </a>
-        <div class="w-48 right-0 items-center absolute invisible opacity-0 group-hover:opacity-100 group-hover:visible pt-4">
+        <div class="w-48 right-0 items-center absolute invisible group-hover:visible pt-4">
           <ul class="shadow rounded bg-white px-4 py-2">
             <li>
               <a href="#" class="text-xs w-full inline-block py-1 hover:text-{primary}-700 flex items-center">
