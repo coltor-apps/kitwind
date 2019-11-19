@@ -116,10 +116,8 @@ section: body
   </svg>
 </div>
 <p>
-  This module is under active development. And yes, it will cost
-  <span class="font-bold">$<span id="price">0</span> forever.</span>
-  <a href="#" target="_blank" class="text-indigo-700">Stay tuned</a
-  ><svg
+  This module is under development. <a href="https://twitter.com/sandulat" target="_blank" class="text-indigo-700">Stay tuned</a>
+  <svg
     xmlns="http://www.w3.org/2000/svg"
     width="48"
     height="48"
@@ -134,15 +132,19 @@ section: body
 </p>
 
 @push('scripts')
+
 <script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/countup@1.8.2/dist/countUp.min.js"></script>
 <script type="text/javascript">
   const illustrationId = 'crane';
+
   new Vivus(illustrationId, { duration: 100 });
+
   const illustrationClassList = document.getElementById(illustrationId)
     .classList;
+
   illustrationClassList.remove('opacity-0');
+
   illustrationClassList.add('opacity-100');
-  new CountUp('price', 9999, 0, 2, 5).start();
 </script>
+
 @endpush
