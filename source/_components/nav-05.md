@@ -17,7 +17,7 @@ note: Make sure to enable the "group-hover" variant for "textColor", "visibility
           <span class="hidden md:inline-block">Cart</span>
         </a>
         <div class="w-48 right-0 items-center absolute invisible opacity-0 group-hover:opacity-100 group-hover:visible pt-4">
-          <ul class="border rounded bg-white px-4 py-2">
+          <ul class="shadow rounded bg-white px-4 py-2">
             <li class="flex items-center justify-between py-1">
               <a href="#" class="text-xs w-full flex items-center hover:text-{primary}-700">
                 <span class="w-5 h-5 bg-center bg-cover rounded-full bg-gray-300 mr-2"></span>
@@ -44,7 +44,7 @@ note: Make sure to enable the "group-hover" variant for "textColor", "visibility
           <span class="hidden md:inline-block">Account</span>
         </a>
         <div class="w-48 right-0 items-center absolute invisible opacity-0 group-hover:opacity-100 group-hover:visible pt-4">
-          <ul class="border rounded bg-white px-4 py-2">
+          <ul class="shadow rounded bg-white px-4 py-2">
             <li>
               <a href="#" class="text-xs w-full inline-block py-1 hover:text-{primary}-700 flex items-center">
                 <svg class="mr-2 w-4 h-4 opacity-75" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -94,8 +94,8 @@ note: Make sure to enable the "group-hover" variant for "textColor", "visibility
           <a href="#" class="hover:text-{primary}-700">Sign In</a>
         </li>
         <li>
-          <a href="#"class="text-white bg-{primary}-500 hover:bg-{primary}-600 px-6 py-2 rounded inline-block font-semibold">Sign
-            Up
+          <a href="#"class="text-white bg-{primary}-500 hover:bg-{primary}-600 px-6 py-2 rounded inline-block font-semibold">
+            Sign Up
           </a>
         </li>
       </ul>
