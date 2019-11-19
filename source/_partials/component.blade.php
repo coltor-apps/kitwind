@@ -13,7 +13,7 @@
       <div class="overflow-hidden">
         <pre
           class="rounded shadow max-h-sm text-sm code-toolbar line-numbers"
-        ><code class="language-html">{{ $component->getContent() }}</code></pre>
+        ><code class="language-html">{{ $component->stripIgnoredParts($component->getContent()) }}</code></pre>
       </div>
     </class-replacer>
   </template>

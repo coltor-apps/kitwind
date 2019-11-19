@@ -25,4 +25,7 @@ return [
     'pathContains' => static function ($page, $path) {
         return strpos(trimPath($page->getPath()), trimPath($path)) !== false;
     },
+    'stripIgnoredParts' => static function ($page, $string) {
+        return preg_replace('/<!--ingore-->[\s\S]+?<!--endingore-->/', '', $string);
+    },
 ];

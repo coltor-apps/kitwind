@@ -26,7 +26,8 @@ min_height: 577px
     </div>
   </div>
 </header>
-
+<!--ingore-->
 <div id="some-section" class="h-screen flex items-center justify-center items-center text-gray-400">
   I'm Invisible 👀
 </div>  
+<!--endingore-->
