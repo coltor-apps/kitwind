@@ -4,13 +4,13 @@ min_height: 324px
 note: Make sure to enable the "group-hover" variant for "textColor" and "visibility".
 ---
 
-<nav>
-  <div class="flex justify-between relative border-b text-xs z-20">
+<nav class="bg-gray-900">
+  <div class="flex justify-between relative border-b border-gray-800 text-xs z-20">
     <div class="container mx-auto flex justify-between py-3 px-8">
       <ul class="flex">
-        <li class="relative group text-gray-700">
-          <a href="#" class="group-hover:text-{primary}-700 flex items-center">
-            <svg class="w-4 h-4 md:mr-2 text-gray-600 group-hover:text-{primary}-700" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <li class="relative group text-gray-400">
+          <a href="#" class="group-hover:text-{primary}-500 flex items-center">
+            <svg class="w-4 h-4 md:mr-2 text-gray-600 group-hover:text-{primary}-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
               <g fill="currentColor">
                 <path d="M17,11.94q-.16.626-.922,3.091h1.86q-.719-2.309-.808-2.612C17.072,12.218,17.028,12.058,17,11.94Z" fill="currentColor"></path>
                 <path d="M22,8H12a2,2,0,0,0-2,2v9a2,2,0,0,0,2,2h6l4,3V21a2,2,0,0,0,2-2V10A2,2,0,0,0,22,8ZM18.819,18,18.3,16.3H15.7L15.181,18H13.55l2.52-7.168h1.85L20.45,18Z" fill="currentColor"></path>
@@ -42,9 +42,9 @@ note: Make sure to enable the "group-hover" variant for "textColor" and "visibil
         </li>
       </ul>
       <ul class="flex">
-        <li class="relative group text-gray-700 mr-5">
-          <a href="#" class="hover:text-{primary}-700 group-hover:text-{primary}-700 flex items-center">
-            <svg class="w-4 h-4 md:mr-2 text-gray-600 group-hover:text-{primary}-700" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <li class="relative group text-gray-400 mr-5">
+          <a href="#" class="hover:text-{primary}-500 group-hover:text-{primary}-500 flex items-center">
+            <svg class="w-4 h-4 md:mr-2 text-gray-600 group-hover:text-{primary}-500" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
                 <path d="M3,5 L4.33333333,9 L4,9 C2.34314575,9 1,10.3431458 1,12 C1,13.6568542 2.34314575,15 4,15 L17,15 L17,13 L4.00684547,13 C3.45078007,13 3,12.5561352 3,12 C3,11.4477153 3.44748943,11 3.99850233,11 L10.5,11 L17,11 L20,2 L4,2 L4,0.997030139 C4,0.453036308 3.54809015,0 2.9906311,0 L0,0 L0,2 L2,2 L3,5 Z M5,20 C6.1045695,20 7,19.1045695 7,18 C7,16.8954305 6.1045695,16 5,16 C3.8954305,16 3,16.8954305 3,18 C3,19.1045695 3.8954305,20 5,20 Z M15,20 C16.1045695,20 17,19.1045695 17,18 C17,16.8954305 16.1045695,16 15,16 C13.8954305,16 13,16.8954305 13,18 C13,19.1045695 13.8954305,20 15,20 Z" id="Combined-Shape"></path>
               </g>
@@ -69,9 +69,9 @@ note: Make sure to enable the "group-hover" variant for "textColor" and "visibil
             </ul>
           </div>
         </li>
-        <li class="relative group text-gray-700">
-          <a href="#" class="group-hover:text-{primary}-700 flex items-center">
-            <svg class="w-4 h-4 md:mr-2 text-gray-600 group-hover:text-{primary}-700" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <li class="relative group text-gray-400">
+          <a href="#" class="group-hover:text-{primary}-500 flex items-center">
+            <svg class="w-4 h-4 md:mr-2 text-gray-600 group-hover:text-{primary}-500" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
                 <path d="M10,20 C15.5228475,20 20,15.5228475 20,10 C20,4.4771525 15.5228475,0 10,0 C4.4771525,0 0,4.4771525 0,10 C0,15.5228475 4.4771525,20 10,20 Z M6.99999861,6.00166547 C6.99999861,4.34389141 8.3465151,3 9.99999722,3 C11.6568507,3 12.9999958,4.33902013 12.9999958,6.00166547 L12.9999958,7.99833453 C12.9999958,9.65610859 11.6534793,11 9.99999722,11 C8.34314374,11 6.99999861,9.66097987 6.99999861,7.99833453 L6.99999861,6.00166547 Z M3.34715433,14.4444439 C5.37306718,13.5169611 7.62616222,13 10,13 C12.3738388,13 14.6269347,13.5169615 16.6528458,14.4444437 C15.2177146,16.5884188 12.7737035,18 10,18 C7.22629656,18 4.78228556,16.5884189 3.34715433,14.4444439 L3.34715433,14.4444439 Z" id="Combined-Shape"></path>				
               </g>
@@ -103,68 +103,38 @@ note: Make sure to enable the "group-hover" variant for "textColor" and "visibil
   <div class="container mx-auto py-5 px-8">
     <div class="relative flex justify-between items-center">
       <a href="#" class="flex items-center">
-        <svg
-          class="text-{primary}-500 mr-2"
-          xmlns="http://www.w3.org/2000/svg"
-          width="32"
-          height="32"
-          viewBox="0 0 32 32"
-        >
-          <g
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            fill="currentColor"
-            stroke="currentColor"
-          >
-            <polygon
-              points="19 3 4 19 15 19 13 29 28 13 17 13 19 3"
-              fill="none"
-              stroke="currentColor"
-              stroke-miterlimit="10"
-            />
+        <svg class="text-{primary}-500 mr-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+          <g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="currentColor" stroke="currentColor">
+            <polygon points="19 3 4 19 15 19 13 29 28 13 17 13 19 3" fill="none" stroke="currentColor" stroke-miterlimit="10"></polygon>
           </g>
         </svg>
-        <span class="text-gray-800 font-bold">Logo</span>
+        <span class="text-white font-bold">Logo</span>
       </a>
-      <button
-        onclick="this.nextElementSibling.classList.toggle('hidden')"
-        class="px-3 py-2 border rounded text-gray-500 border-gray-500 inline-block md:hidden"
-      >
-        <svg
-          class="fill-current h-3 w-3"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-        >
+      <button onclick="this.nextElementSibling.classList.toggle('hidden')" class="px-3 py-2 border rounded text-gray-500 border-gray-500 inline-block md:hidden">
+        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <title>Menu</title>
-          <path stroke-width="1" stroke="currentColor" d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          <path stroke-width="1" stroke="currentColor" d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
         </svg>
       </button>
-      <div
-        class="w-full max-w-xs hidden absolute right-0 top-0 mt-12 font-medium tracking-wide text-sm text-gray-800 bg-white p-5 shadow rounded z-10 md:max-w-full md:ml-12 md:flex md:mt-0 md:relative md:flex-row md:items-center md:bg-transparent md:p-0 md:shadow-none md:rounded-none"
-      >
-        <ul class="flex flex-col md:flex-row mx-auto">
-          <li class="mr-10 mb-3 md:mb-0">
-            <a href="#" class="hover:text-{primary}-700">Home</a>
-          </li>
-          <li class="mr-10 mb-3 md:mb-0">
-            <a href="#" class="hover:text-{primary}-700">About</a>
-          </li>
-          <li class="mr-10 mb-3 md:mb-0">
-            <a href="#" class="hover:text-{primary}-700">Contact Us</a>
-          </li>
-          <li class="mr-10 mb-3 md:mb-0">
-            <a href="#" class="hover:text-{primary}-700">Sign In</a>
-          </li>
-        </ul>
-        <ul class="flex md:items-center flex-col md:flex-row">
-          <li>
-            <a href="#" class="text-white bg-{primary}-500 hover:bg-{primary}-600 px-6 py-2 rounded inline-block font-semibold">
-              Sign Up
-            </a>
-          </li>
-        </ul>
-      </div>
+      <ul class="w-full max-w-xs hidden absolute right-0 top-0 mt-12 font-medium tracking-wide text-sm text-gray-800 bg-white p-5 shadow rounded z-10 md:text-gray-400 md:max-w-full md:w-auto md:flex md:mt-0 md:relative md:flex-row md:items-center md:bg-transparent md:p-0 md:shadow-none md:rounded-none">
+        <li class="mr-10 mb-3 md:mb-0">
+          <a href="#" class="hover:text-{primary}-500">Home</a>
+        </li>
+        <li class="mr-10 mb-3 md:mb-0">
+          <a href="#" class="hover:text-{primary}-500">About</a>
+        </li>
+        <li class="mr-10 mb-3 md:mb-0">
+          <a href="#" class="hover:text-{primary}-500">Contact Us</a>
+        </li>
+        <li class="mr-10 mb-3 md:mb-0">
+          <a href="#" class="hover:text-{primary}-500">Sign In</a>
+        </li>
+        <li>
+          <a href="#"class="text-white bg-{primary}-500 hover:bg-{primary}-600 px-6 py-2 rounded inline-block font-semibold">
+            Sign Up
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>

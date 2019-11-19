@@ -6,9 +6,9 @@ note: Make sure to enable the "group-hover" variant for "textColor" and "visibil
 
 <nav>
   <div class="flex justify-between relative border-b text-xs z-20">
-    <div class="container mx-auto flex justify-between text-gray-700 py-3 px-8">
+    <div class="container mx-auto flex justify-between py-3 px-8">
       <ul class="flex">
-        <li class="relative group">
+        <li class="relative group text-gray-700">
           <a href="#" class="group-hover:text-{primary}-700 flex items-center">
             <svg class="w-4 h-4 md:mr-2 text-gray-600 group-hover:text-{primary}-700" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
               <g fill="currentColor">
@@ -21,7 +21,7 @@ note: Make sure to enable the "group-hover" variant for "textColor" and "visibil
             <span class="hidden md:inline-block">English</span>
           </a>
           <div class="w-32 left-0 items-center absolute invisible group-hover:visible pt-4">
-            <ul class="shadow rounded bg-white px-4 py-2">
+            <ul class="shadow rounded bg-white text-gray-700 px-4 py-2">
               <li>
                 <a href="#" class="text-xs w-full inline-block py-1 font-semibold text-{primary}-700 flex items-center">
                   English
@@ -42,7 +42,7 @@ note: Make sure to enable the "group-hover" variant for "textColor" and "visibil
         </li>
       </ul>
       <ul class="flex">
-        <li class="relative group mr-5">
+        <li class="relative group text-gray-700 mr-5">
           <a href="#" class="hover:text-{primary}-700 group-hover:text-{primary}-700 flex items-center">
             <svg class="w-4 h-4 md:mr-2 text-gray-600 group-hover:text-{primary}-700" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
@@ -52,7 +52,7 @@ note: Make sure to enable the "group-hover" variant for "textColor" and "visibil
             <span class="hidden md:inline-block">Cart</span>
           </a>
           <div class="w-48 md:w-64 right-0 items-center absolute invisible group-hover:visible pt-4">
-            <ul class="shadow rounded bg-white px-4 py-2">
+            <ul class="shadow rounded bg-white text-gray-700 px-4 py-2">
               <li class="flex items-center justify-between py-1 px-1">
                 <a href="#" class="text-xs w-full flex items-center hover:text-{primary}-700">
                   <span class="w-5 h-5 bg-center bg-cover rounded-full bg-gray-300 mr-2"></span>
@@ -69,7 +69,7 @@ note: Make sure to enable the "group-hover" variant for "textColor" and "visibil
             </ul>
           </div>
         </li>
-        <li class="relative group">
+        <li class="relative group text-gray-700">
           <a href="#" class="group-hover:text-{primary}-700 flex items-center">
             <svg class="w-4 h-4 md:mr-2 text-gray-600 group-hover:text-{primary}-700" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
@@ -79,7 +79,7 @@ note: Make sure to enable the "group-hover" variant for "textColor" and "visibil
             <span class="hidden md:inline-block">Account</span>
           </a>
           <div class="w-32 right-0 items-center absolute invisible group-hover:visible pt-4">
-            <ul class="shadow rounded bg-white px-4 py-2">
+            <ul class="shadow rounded bg-white text-gray-700 px-4 py-2">
               <li>
                 <a href="#" class="text-xs w-full inline-block py-1 hover:text-{primary}-700 flex items-center">
                   <svg class="mr-2 w-4 h-4 opacity-75" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -99,6 +99,7 @@ note: Make sure to enable the "group-hover" variant for "textColor" and "visibil
       </ul>
     </div>
   </div>
+
   <div class="container mx-auto py-5 px-8">
     <div class="relative flex justify-between items-center">
       <a href="#" class="flex items-center">
@@ -128,7 +129,7 @@ note: Make sure to enable the "group-hover" variant for "textColor" and "visibil
       </a>
       <button
         onclick="this.nextElementSibling.classList.toggle('hidden')"
-        class="px-3 py-2 border-2 rounded text-gray-500 border-gray-500 inline-block md:hidden"
+        class="px-3 py-2 border rounded text-gray-500 border-gray-500 inline-block md:hidden"
       >
         <svg
           class="fill-current h-3 w-3"

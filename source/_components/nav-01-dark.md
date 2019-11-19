@@ -3,7 +3,7 @@ category: navs
 min_height: 281px
 ---
 
-<nav>
+<nav class="bg-gray-900">
   <div class="container mx-auto px-8 py-5">
     <div class="relative flex justify-between items-center">
       <a href="#" class="flex items-center">
@@ -29,11 +29,11 @@ min_height: 281px
             />
           </g>
         </svg>
-        <span class="text-gray-800 font-bold">Logo</span>
+        <span class="text-white font-bold">Logo</span>
       </a>
       <button
         onclick="this.nextElementSibling.classList.toggle('hidden')"
-        class="px-3 py-2 border rounded text-gray-500 border-gray-500 inline-block md:hidden"
+        class="px-3 py-2 border rounded text-white border-gray-500 inline-block md:hidden"
       >
         <svg
           class="fill-current text-gray-400 h-3 w-3"
@@ -45,19 +45,19 @@ min_height: 281px
         </svg>
       </button>
       <ul
-        class="w-full max-w-xs hidden absolute right-0 top-0 mt-12 font-medium tracking-wide text-sm text-gray-800 bg-white p-5 shadow rounded z-10 md:max-w-full md:w-auto md:flex md:mt-0 md:relative md:flex-row md:items-center md:bg-transparent md:p-0 md:shadow-none md:rounded-none"
+        class="w-full max-w-xs hidden absolute right-0 top-0 mt-12 font-medium tracking-wide text-sm text-gray-800 bg-white p-5 shadow rounded z-10 md:text-gray-400 md:max-w-full md:w-auto md:flex md:mt-0 md:relative md:flex-row md:items-center md:bg-transparent md:p-0 md:shadow-none md:rounded-none"
       >
         <li class="mr-10 mb-3 md:mb-0">
-          <a href="#" class="hover:text-{primary}-700">Home</a>
+          <a href="#" class="hover:text-{primary}-500">Home</a>
         </li>
         <li class="mr-10 mb-3 md:mb-0">
-          <a href="#" class="hover:text-{primary}-700">About</a>
+          <a href="#" class="hover:text-{primary}-500">About</a>
         </li>
         <li class="mr-10 mb-3 md:mb-0">
-          <a href="#" class="hover:text-{primary}-700">Contact Us</a>
+          <a href="#" class="hover:text-{primary}-500">Contact Us</a>
         </li>
         <li class="mr-10 mb-3 md:mb-0">
-          <a href="#" class="hover:text-{primary}-700">Sign In</a>
+          <a href="#" class="hover:text-{primary}-500">Sign In</a>
         </li>
         <li>
           <a href="#" class="text-white bg-{primary}-500 hover:bg-{primary}-600 px-6 py-2 rounded inline-block font-semibold">
