@@ -8,6 +8,6 @@ export default {
     );
   },
   render(h) {
-    return this.$scopedSlots.default();
+    return h('div', this.$scopedSlots.default());
   },
 };

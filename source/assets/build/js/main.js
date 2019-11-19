@@ -31330,7 +31330,7 @@ __webpack_require__.r(__webpack_exports__);
     this.$slots["default"][0].elm.innerHTML = this.$slots["default"][0].elm.innerHTML.replace(/-{primary}-/g, "-".concat(Object(_utils_componentsColor__WEBPACK_IMPORTED_MODULE_0__["getComponentsColor"])(), "-"));
   },
   render: function render(h) {
-    return this.$scopedSlots["default"]();
+    return h('div', this.$scopedSlots["default"]());
   }
 });
 
