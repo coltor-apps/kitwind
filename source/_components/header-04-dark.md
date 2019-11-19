@@ -27,6 +27,6 @@ min_height: 577px
   </div>
 </header>
 
-<div id="some-section" class="h-screen flex items-center justify-center items-center text-gray-400 opacity-25">
+<div id="some-section" class="h-screen flex items-center justify-center items-center text-gray-400">
   I'm Invisible 👀
-</div>
+</div>  
