@@ -116,13 +116,13 @@ section: body
   </svg>
 </div>
 <p>
-  This module is under development. <a href="https://twitter.com/sandulat" target="_blank" class="text-indigo-700">Stay tuned</a>
+  This module is under development. <a href="https://twitter.com/sandulat" target="_blank" class="text-teal-700">Stay tuned</a>
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="48"
     height="48"
     viewBox="0 0 48 48"
-    class="inline-block w-5 h-5 ml-2 text-indigo-600 -mt-px"
+    class="inline-block w-5 h-5 ml-2 text-teal-600 -mt-px"
   >
     <path
       fill="currentColor"

@@ -4,4 +4,4 @@ export const setComponentsColor = color =>
   localStorage.setItem(storageKey, color);
 
 export const getComponentsColor = () =>
-  localStorage.getItem(storageKey) || 'indigo';
+  localStorage.getItem(storageKey) || 'teal';

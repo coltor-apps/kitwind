@@ -32042,7 +32042,7 @@ var setComponentsColor = function setComponentsColor(color) {
   return localStorage.setItem(storageKey, color);
 };
 var getComponentsColor = function getComponentsColor() {
-  return localStorage.getItem(storageKey) || 'indigo';
+  return localStorage.getItem(storageKey) || 'teal';
 };
 
 /***/ }),

@@ -16,30 +16,9 @@
     <div id="app" class="px-6 xl:px-0 container mx-auto pt-32">
       <div class="fixed inset-x-0 w-full border-b z-50 bg-white top-0">
         <div class="px-6 xl:px-0">
-          <nav class="container mx-auto flex justify-between items-center py-5 relative">
+          <nav class="container mx-auto flex justify-between items-center py-3 relative">
             <a href="/" class="flex items-center">
-              <svg
-                class="text-indigo-500 mr-2"
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 32 32"
-              >
-                <g
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  fill="currentColor"
-                  stroke="currentColor"
-                >
-                  <polygon
-                    points="19 3 4 19 15 19 13 29 28 13 17 13 19 3"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-miterlimit="10"
-                  />
-                </g>
-              </svg>
+              <img src="/assets/images/kitwind.svg" class="mr-1 h-12">
               <span class="text-gray-800 font-bold">Kitwind</span>
             </a>
             <button
@@ -65,14 +44,14 @@
               <li class="mr-10 mb-3 md:mb-0">
                 <a
                   href="/"
-                  class="hover:text-indigo-700 transition-colors @if ($page->isPathActive('')) text-indigo-700 @endif"
+                  class="hover:text-teal-700 transition-colors @if ($page->isPathActive('')) text-teal-700 @endif"
                   >Home</a
                 >
               </li>
               <li class="mr-10 mb-3 md:mb-0 group relative">
                 <a
                   href="/components"
-                  class="hover:text-indigo-700 transition-colors @if ($page->isPathActive('components') || $page->pathContains('components')) text-indigo-700 @endif"
+                  class="hover:text-teal-700 transition-colors @if ($page->isPathActive('components') || $page->pathContains('components')) text-teal-700 @endif"
                   >Components</a
                 >
                 <div
@@ -83,7 +62,7 @@
                     <li>
                       <a
                         href="{{ $category->getUrl() }}"
-                        class="transition-colors text-sm w-full inline-block py-1 hover:text-indigo-600"
+                        class="transition-colors text-sm w-full inline-block py-1 hover:text-teal-600"
                       >
                         {{ $category->title }}
                         <span class="opacity-75"
@@ -98,7 +77,7 @@
               <li>
                 <a
                   href="/builder"
-                  class="transition-colors text-white bg-indigo-500 hover:bg-indigo-600 px-6 py-2 rounded inline-block font-semibold"
+                  class="transition-colors text-white bg-teal-500 hover:bg-teal-600 px-6 py-2 rounded inline-block font-semibold"
                   >Builder</a
                 >
               </li>
