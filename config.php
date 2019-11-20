@@ -26,6 +26,6 @@ return [
         return strpos(trimPath($page->getPath()), trimPath($path)) !== false;
     },
     'stripIgnoredParts' => static function ($page, $string) {
-        return preg_replace('/<!--ingore-->[\s\S]+?<!--endingore-->/', '', $string);
+        return preg_replace('/<!--ignore-->[\s\S]+?<!--endignore-->/', '', $string);
     },
 ];
