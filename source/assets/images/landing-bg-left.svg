@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="619.525" height="554.027" viewBox="0 0 619.525 554.027">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3555ce" stop-opacity="0"/>
+      <stop offset="0.003" stop-color="#38b2ac"/>
+      <stop offset="1" stop-color="#38b2ac"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="0.924" y2="0.058" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3555ce" stop-opacity="0"/>
+      <stop offset="0" stop-color="#3655ce" stop-opacity="0"/>
+      <stop offset="1" stop-color="#165d5a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3555ce" stop-opacity="0"/>
+      <stop offset="0.003" stop-color="#3655ce" stop-opacity="0"/>
+      <stop offset="1" stop-color="#38b2ac"/>
+    </linearGradient>
+  </defs>
+  <g id="bg" transform="translate(-2378.178 -6959.046)">
+    <path id="Rectangle_1048" data-name="Rectangle 1048" d="M2381.017,7499.074V7013.989c50.1,15.368,95.659,40.66,127.228,84.669,62.714,87.441-17.73,199.875,78.281,245.148s211.317,14.525,285.271,92.243c18.612,19.56,37.059,39.983,54.037,63.025Z" transform="translate(-1)" fill="#38b2ac"/>
+    <g id="Rectangle_1048_copy_2" data-name="Rectangle 1048 copy 2" transform="translate(-1 -54.942)" opacity="0.278">
+      <path id="Rectangle_1048_copy_2-2" data-name="Rectangle 1048 copy 2" d="M2392.177,7554.016V7013.989c55.773,17.108,106.494,45.265,141.638,94.259,69.818,97.345-19.739,222.513,87.147,272.915s235.251,16.17,317.582,102.691c20.72,21.774,41.257,44.512,60.159,70.163Z" transform="translate(0)" fill="rgba(206,63,209,0)"/>
+      <path id="Rectangle_1048_copy_2-3" data-name="Rectangle 1048 copy 2" d="M2392.177,7554.016V7013.989c55.773,17.108,106.494,45.265,141.638,94.259,69.818,97.345-19.739,222.513,87.147,272.915s235.251,16.17,317.582,102.691c20.72,21.774,41.257,44.512,60.159,70.163Z" transform="translate(-13 14)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Rectangle_1049" data-name="Rectangle 1049" d="M2381.017,7065.25c28.042,11.287,52.239,27.731,69.569,51.893,62.714,87.441-26.043,205.729,69.968,251s190.883,24.372,263.414,103.064c8.289,8.959,16.367,18.207,24.138,27.864H2381.017Z" fill="#38b2ac"/>
+    <g id="Rectangle_1049_copy_2" data-name="Rectangle 1049 copy 2" opacity="0.278">
+      <path id="Rectangle_1049_copy_2-2" data-name="Rectangle 1049 copy 2" d="M2391.163,7067.167c28.042,11.288,52.238,27.731,69.569,51.893,62.714,87.441-26.043,205.73,69.968,251s190.882,24.372,263.414,103.064c8.289,8.959,16.367,18.207,24.138,27.864H2391.163Z" fill="rgba(189,68,223,0)"/>
+      <path id="Rectangle_1049_copy_2-3" data-name="Rectangle 1049 copy 2" d="M2391.163,7067.167c28.042,11.288,52.238,27.731,69.569,51.893,62.714,87.441-26.043,205.73,69.968,251s190.882,24.372,263.414,103.064c8.289,8.959,16.367,18.207,24.138,27.864H2391.163Z" fill="url(#linear-gradient-2)"/>
+    </g>
+    <path id="Rectangle_1050" data-name="Rectangle 1050" d="M2381.017,7499.074V7121.888a100.2,100.2,0,0,1,11.911,13.738c62.714,87.441-34.355,211.584,61.656,256.858,92.966,43.854,165.545,34.994,234.773,106.59Z" fill="#2f9b9d"/>
+    <path id="Rectangle_1050_copy" data-name="Rectangle 1050 copy" d="M2380,7500.991V7123.8a100.213,100.213,0,0,1,11.911,13.739c62.714,87.441-34.355,211.584,61.656,256.857,92.967,43.854,165.545,34.995,234.773,106.59Z" fill="#2e9d97"/>
+    <g id="Rectangle_1050_copy_2" data-name="Rectangle 1050 copy 2" opacity="0.278">
+      <path id="Rectangle_1050_copy_2-2" data-name="Rectangle 1050 copy 2" d="M2394.207,7500.991V7123.8a100.158,100.158,0,0,1,11.91,13.739c62.714,87.441-34.355,211.584,61.656,256.857,92.966,43.854,165.545,34.995,234.773,106.59Z" fill="rgba(155,77,221,0)"/>
+      <path id="Rectangle_1050_copy_2-3" data-name="Rectangle 1050 copy 2" d="M2394.207,7500.991V7123.8a100.158,100.158,0,0,1,11.91,13.739c62.714,87.441-34.355,211.584,61.656,256.857,92.966,43.854,165.545,34.995,234.773,106.59Z" fill="url(#linear-gradient-3)"/>
+    </g>
+    <path id="Rectangle_1051" data-name="Rectangle 1051" d="M2381.017,7412.841q3.581,2.1,7.6,3.991c75,35.36,124.206,42.479,175.491,82.241H2381.017Z" fill="#38b2ac"/>
+    <path id="Rectangle_1051_copy" data-name="Rectangle 1051 copy" d="M2380,7414.758q3.58,2.1,7.6,3.992c75,35.36,124.206,42.479,175.492,82.24H2380Z" fill="#38b2ac"/>
+    <g id="Rectangle_1051_copy_2" data-name="Rectangle 1051 copy 2" opacity="0.278">
+      <path id="Rectangle_1051_copy_2-2" data-name="Rectangle 1051 copy 2" d="M2395.221,7414.758q3.58,2.1,7.6,3.992c75,35.36,124.206,42.479,175.491,82.24H2395.221Z" fill="rgba(130,77,212,0)"/>
+      <path id="Rectangle_1051_copy_2-3" data-name="Rectangle 1051 copy 2" d="M2395.221,7414.758q3.58,2.1,7.6,3.992c75,35.36,124.206,42.479,175.491,82.24H2395.221Z" transform="translate(-14 -2)" fill="#0e4341"/>
+    </g>
+    <path id="Shape_1047_copy" data-name="Shape 1047 copy" d="M2380,7500.991V7470.3c21.552,10.235,39.529,19.482,56.588,30.692Z" fill="#2d9893"/>
+    <g id="Shape_1047_copy_2" data-name="Shape 1047 copy 2" opacity="0.349">
+      <path id="Shape_1047_copy_2-2" data-name="Shape 1047 copy 2" d="M2382.033,7500.99v-36.412c25.885,12.142,47.478,23.112,67.969,36.412Z" fill="rgba(94,81,213,0)"/>
+      <path id="Shape_1047_copy_2-3" data-name="Shape 1047 copy 2" d="M2382.033,7500.99v-36.412c25.885,12.142,47.478,23.112,67.969,36.412Z" fill="#2f999c"/>
+    </g>
+  </g>
+</svg>
