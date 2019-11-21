@@ -1,6 +1,6 @@
 # 🌪 Kitwind🌪
 Tailwind CSS components & sections.
-https://kitwind.coltorapps.com/components/
+https://kitwind.coltorapps.com/
 
 > Main philosophy: pure Tailwind, no dependencies, no plugins, no front-end frameworks.
 
