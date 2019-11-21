@@ -8,6 +8,15 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="Kitwind - Pure Tailwind Components & Sections. No dependencies. No front-end frameworks." />
+    <meta name="keywords" content="Kitwind, Tailwind, TailwindCSS, Components, Sections" />
+    <meta property="og:site_name" content="Kitwind" />
+    <meta property="og:title" content="Kitwind - Pure Tailwind Components"/>
+    <meta property="og:description" content="Kitwind - Pure Tailwind Components & Sections. No dependencies. No front-end frameworks."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://kitwind.coltorapps.com/assets/images/social.png" />
+    <meta property="og:url" content="https://kitwind.coltorapps.com/"/>
+    <meta property="og:locale" content="en_EN">
     <title>Kitwind - {{ $page->title }}</title>
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}" />
     @stack('head')
