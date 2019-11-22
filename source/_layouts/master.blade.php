@@ -10,6 +10,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="description" content="Kitwind - Pure Tailwind Components & Sections. No dependencies. No front-end frameworks." />
     <meta name="keywords" content="Kitwind, Tailwind, TailwindCSS, Components, Sections" />
+    <meta name="google-site-verification" content="cn-op0Wq21izEzaGHTtYZ0PkgaUUr_PIZJLaOb5WVL0" />
     <meta property="og:site_name" content="Kitwind" />
     <meta property="og:title" content="Kitwind - Pure Tailwind Components"/>
     <meta property="og:description" content="Kitwind - Pure Tailwind Components & Sections. No dependencies. No front-end frameworks."/>
