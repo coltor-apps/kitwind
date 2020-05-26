@@ -10,3 +10,5 @@ Vue.component('components-color-picker', ComponentsColorPicker);
 new Vue({
   el: '#app',
 });
+
+window.location.replace("https://kitwind.io/);
