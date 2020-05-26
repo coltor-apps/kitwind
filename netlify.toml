@@ -1,5 +1,11 @@
 [build]
+  command = "npm run production"
+  publish = "build_production"
+  environment = { PHP_VERSION = "7.2" }
 
-command = "npm run production"
-publish = "build_production"
-environment = { PHP_VERSION = "7.2" }
+[[redirects]]
+  from = "/*"
+  to = "https://kitwind.io/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
