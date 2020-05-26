@@ -6,4 +6,3 @@
 [[redirects]]
   from = "/*"
   to = "https://kitwind.io/"
-  status = 302
