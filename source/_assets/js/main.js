@@ -11,4 +11,4 @@ new Vue({
   el: '#app',
 });
 
-window.location.replace("https://kitwind.io/);
+window.location.replace("https://kitwind.io/");
