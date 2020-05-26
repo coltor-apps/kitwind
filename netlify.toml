@@ -6,6 +6,4 @@
 [[redirects]]
   from = "/*"
   to = "https://kitwind.io/"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
+  status = 302
